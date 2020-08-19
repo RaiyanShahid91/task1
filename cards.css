@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:blueviolet;
+}
+.module{
+    
+   background-blend-mode:yellow ;
+    border:2px solid black;
+}
+.border{
+    
+   
+    border:2px solid black;
+}
+.hero{   
+    border:2px solid black;
+}
+.flashcard{
+    border:2px solid black;
+}
+
+
+.cards{
+    display:inline-block;
+    width:15%;
+    background-color:red;
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: 2px 2px 10px black ;
+}
+button{
+    margin: 20px;
+    background-color:green;
+    border:1px solid black;
+    padding:5px;
+    border-radius: 10px;
+}
+buton:hover{
+    background-color:black;
+    color:white;
+    transition:.5s;
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px yellow ;
+}
+.cards:hover{
+    background-color:pink;
+    color:white;
+    transition:.5s;
+}
+.image img{
+    width:100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.title{
+    text-align:center;
+}
+.dis{
+    text-align:center;
+  
+}
+.time{
+    text-align:center;
+    padding:10px;
+    
+}
+.text{
+    margin:35px;
+    display:inline-block;
+    width:15%;
+    background-color:green;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black ;
+
+}
+.sentence{
+    text-align:center;
+    font-size:10px;
+    padding:50px;
+    size: 10px;
+}
+.module{
+    margin: 30px;
+}
